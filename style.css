@@ -3,7 +3,26 @@ body{
     font-family: 'Roboto', sans-serif;
 
 }
-
+.nav-section{
+    padding-right:100px ;
+    padding-top: 50px;
+}
+	.nav-section ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+.nav-section li{
+    display: inline-block;
+}
+.nav-section a{
+    text-decoration: none;
+    color:black;
+    width: 100px;
+    display: block;
+    font-weight: 700;
+}
 .half-width{
     width: 35%;
     float: left;
@@ -109,8 +128,22 @@ section{
 .connect h1,h2{
     text-align: center;
 }
-
-.connect img{
-    width: 50px;
-    height: 50px;
+.image{
+    /* width: auto;
+    margin: auto; */
+    position: relative;
+}
+.span-sec{
+    /* background-color: red; */
+    position: absolute;
+    /* width: auto;
+    left: 0;
+    right: 0;
+    margin: auto; */
+    left: 45%;
+}
+.image img{
+    width: 40px;
+    padding: 5px;
+    
 }
