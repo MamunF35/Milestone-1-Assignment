@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.half-width{
+    width: 35%;
+    float: left;
+    margin-left: 7%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.half-width h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+}
+.half-width p{
+    color: dimgray;
+}
+.color-name{
+    color: orange;
+}
+section{
+    height: 650px;
+    margin-top: 100px;
+}
+.button-link {
+     color: white;
+    text-decoration: none;
+    padding: 16px 40px;
+    background-color: #eb5d3d;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 10px;
+    
+}
+.third-section{
+    background-color:#f7f7f7;
+}
+.project-header{
+    text-align: center;
+    padding-top: 90px;
+    font-size: 40px;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+}
+.proj-des{
+    width: 80%;
+    margin: auto;
+}
+.project{
+    width: 29.5%;
+    float: left;
+    margin:0px 0.6%;
+    border-radius: 20px;
+    box-shadow: 5px 8px 15px 5px #B6B6B6;
+    padding:15px;
+   
+}
+ .project img{
+    width: 100%;
+    border-radius: 10px;
+    height: 230px;
+}
+.card{
+    background-image: url('images/card.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 65%;
+    height: 250px;
+    margin: auto;
+    background-position: center center;
+    border-radius: 25px;
+}
+.work{
+    float: left;
+    margin-left: 86px;
+    margin-top: 60px;
+}
+.work h1{
+    font-size: 50px;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+.chat{
+    float: right;
+    margin-right: 100px;
+    margin-top: 115px;
+}
+.chat a{
+    color: white;
+    text-decoration: none;
+    padding: 16px 40px;
+    background-color: #eb5d3d;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 10px;
+}
+.connect{
+    padding-top: 100px;
+}
+.connect h1,h2{
+    text-align: center;
+}
+
+.connect img{
+    width: 50px;
+    height: 50px;
+}
