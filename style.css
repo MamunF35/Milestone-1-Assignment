@@ -52,7 +52,8 @@ section{
      color: white;
     text-decoration: none;
     padding: 16px 40px;
-    background-color: #eb5d3d;
+    /* background-color: #eb5d3d; */
+    background-image:linear-gradient(45deg,#eb5d3d,#ff6347);
     font-size: 16px;
     font-weight: 300;
     border-radius: 10px;
@@ -85,6 +86,9 @@ section{
     width: 100%;
     border-radius: 10px;
     height: 230px;
+}
+.project h2,p{
+    text-align: justify;
 }
 .card{
     background-image: url('images/card.png');
@@ -127,6 +131,18 @@ section{
 }
 .connect h1,h2{
     text-align: center;
+}
+.connect h1{
+    font-size: 40px;
+    color: rgb(31, 27, 27);
+    margin-top: 10px;
+    
+}
+.connect h2{
+    color: rgb(100, 97, 97);
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 500;
 }
 .image{
     /* width: auto;
