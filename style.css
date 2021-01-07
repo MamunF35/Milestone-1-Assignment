@@ -7,21 +7,30 @@ body{
     padding-right:100px ;
     padding-top: 50px;
 }
-	.nav-section ul{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    text-align: right;
+.nav-section ul{
+list-style-type: none;
+padding: 0;
+margin: 0;
+text-align: right;
 }
-.nav-section li{
+.nav-section ul li{
     display: inline-block;
+    border: 0px solid black;
+    transition: border 0.6s linear;
 }
-.nav-section a{
+.nav-section ul li a{
     text-decoration: none;
     color:black;
     width: 100px;
     display: block;
     font-weight: 700;
+    text-align: center;
+    padding: 10px 20px;
+      
+  
+}
+.nav-section ul li:hover{
+  border-width: 2px; 
 }
 .half-width{
     width: 35%;
@@ -52,7 +61,6 @@ section{
      color: white;
     text-decoration: none;
     padding: 16px 40px;
-    /* background-color: #eb5d3d; */
     background-image:linear-gradient(45deg,#eb5d3d,#ff6347);
     font-size: 16px;
     font-weight: 300;
@@ -89,6 +97,58 @@ section{
 }
 .project h2,p{
     text-align: justify;
+}
+.contact{
+    background-color: rgb(199, 194, 194);
+}
+.contact-me{
+    width: 50%;
+    margin: auto;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+}
+textarea{
+  width: 94%;
+  padding: 12px 20px;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type=submit]{
+  background-color: #363635;
+  color: white;
+  padding: 16px 30px;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+label{
+    font-size: 20px;
+    font-weight: 800;
+}
+fieldset{
+    border: 2px solid white;
+}
+legend{
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Fjalla One', sans-serif;
+    padding: 8px;
+    
+}
+::placeholder{
+    font-size: 16px;
 }
 .card{
     background-image: url('images/card.png');
@@ -145,17 +205,10 @@ section{
     font-weight: 500;
 }
 .image{
-    /* width: auto;
-    margin: auto; */
     position: relative;
 }
 .span-sec{
-    /* background-color: red; */
     position: absolute;
-    /* width: auto;
-    left: 0;
-    right: 0;
-    margin: auto; */
     left: 45%;
 }
 .image img{
